@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import './screens/display_user.dart';
+import 'screens/dashboard_screen.dart';
 import './screens/registry_screen.dart';
 import './screens/splash_screen.dart';
 import './screens/auth_screen.dart';
@@ -20,7 +22,9 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => SplashScreen(),
         AuthScreen.routeName: (context) => AuthScreen(),
-        RegistryScreen.routeName: (context) => RegistryScreen()
+        RegistryScreen.routeName: (context) => RegistryScreen(),
+        DashBoard.routeName: (context) => DashBoard(),
+        DisplayUser.routeName: (context) => DisplayUser()
       },
     );
   }

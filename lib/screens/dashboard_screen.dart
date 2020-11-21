@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 
-import '../screens/display_user.dart';
+import '../widgets/side_drawer.dart';
+import 'display_user.dart';
 
-class UserData extends StatefulWidget {
+class DashBoard extends StatefulWidget {
   static const routeName = '/user_data';
 
   @override
-  _UserDataState createState() => _UserDataState();
+  _DashBoardState createState() => _DashBoardState();
 }
 
-class _UserDataState extends State<UserData> {
+class _DashBoardState extends State<DashBoard> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,6 +18,7 @@ class _UserDataState extends State<UserData> {
         title: Text('Dashboard'),
         actions: [],
       ),
+      drawer: SideDrawer(),
       body: new Container(
         child: Column(
           children: [
