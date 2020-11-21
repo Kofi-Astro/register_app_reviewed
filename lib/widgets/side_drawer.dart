@@ -1,4 +1,4 @@
-byimport 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 import '../screens/auth_screen.dart';
 import '../screens/registry_screen.dart';
