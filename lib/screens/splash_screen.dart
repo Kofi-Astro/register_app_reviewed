@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../screens/auth_screen.dart';
 
+import '../screens/auth_screen2.dart';
+
 class SplashScreen extends StatelessWidget {
   // static const routeName = '/splash-screen';
   @override

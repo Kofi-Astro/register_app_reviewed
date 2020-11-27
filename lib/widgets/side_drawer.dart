@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../screens/auth_screen.dart';
 import '../screens/registry_screen.dart';
 import '../screens/dashboard_screen.dart';
+import '../screens/auth_screen2.dart';
 
 class SideDrawer extends StatefulWidget {
   @override
